@@ -1,0 +1,6 @@
+me\fyronfd\commanddisablerplugin\Commands\EnableCommand.class
+me\fyronfd\commanddisablerplugin\Util\ConfigReader.class
+me\fyronfd\commanddisablerplugin\CommandDisablerPlugin.class
+me\fyronfd\commanddisablerplugin\Commands\DisableCommand.class
+me\fyronfd\commanddisablerplugin\Events\CommandProcessed.class
+me\fyronfd\commanddisablerplugin\Commands\ReloadDisabledCommand.class

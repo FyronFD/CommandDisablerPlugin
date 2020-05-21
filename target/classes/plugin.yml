@@ -1,0 +1,32 @@
+name: CommandDisablerPlugin
+version: 1.0-SNAPSHOT
+main: me.fyronfd.commanddisablerplugin.CommandDisablerPlugin
+api-version: 1.13
+authors: [FyronFD]
+description: Plugin capable of disabling commands, vanilla or custom.
+commands:
+  disableCommand:
+    description: Disables the provided command
+    aliases: [discom, dc]
+    permission: CommandDisabler.Command.Disable
+    usage: /<command> command
+  enableCommand:
+    description: Enables the provided command
+    aliases: [encom, ec]
+    permission: CommandDisabler.Command.Enable
+    usage: /<command> command
+  reloadDisabled:
+    description: Reloads the disabled command config
+    aliases: [reloadcommands, rld]
+    permission: CommandDisabler.Command.Reload
+    usage: /<command>
+permissions:
+  CommandDisabler.Command.Disable:
+    description: Allows for usage of /disablecommand
+    default: op
+  CommandDisabler.Command.Enable:
+    description: Allows for usage of /enablecommand
+    default: op
+  CommandDisabler.Command.Reload:
+    description: Allows for usage of /reloaddisabled
+    default: op
